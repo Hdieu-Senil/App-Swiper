@@ -10,11 +10,11 @@ export const colors = {
 export default StyleSheet.create({
     safeArea: {
         flex: 1,
-        backgroundColor: colors.black
+        backgroundColor: '#ffffff'
     },
     container: {
         flex: 1,
-        backgroundColor: colors.background1
+        backgroundColor: '#ffffff'
     },
     gradient: {
         ...StyleSheet.absoluteFillObject
@@ -59,12 +59,12 @@ export default StyleSheet.create({
         paddingVertical: 10 // for custom animation
     },
     paginationContainer: {
-        paddingVertical: 8
+        paddingVertical: 5,
     },
     paginationDot: {
-        width: 8,
-        height: 8,
-        borderRadius: 4,
-        marginHorizontal: 8
+        width: 10,
+        height: 10,
+        borderRadius: 5,
+        marginHorizontal : 0
     }
 });
